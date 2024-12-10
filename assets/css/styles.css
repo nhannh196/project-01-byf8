@@ -109,14 +109,15 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
 } 
 
-.hero {
+/* .hero {
     margin-top: 118px;
-}
+} */
 .hero .info {
     width: 50.4%;
 }
