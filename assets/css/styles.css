@@ -46,18 +46,21 @@ a {
 }
 
 /*================== Header ==================*/
-.header {
-    position: relative;
+.fixed-header {
+    position: sticky;
+    top:-26px;
+    padding-top: 26px;
     background-color: #e6f0ff;
-    height: 100vh;
+    z-index: 1;
 }
 
 .navbar {
     display: flex;
+    width: 100%;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
+    /* background-color: #0689ff; */
 }
-
 .navbar ul {
     display: flex;
     margin-left: 64px;
@@ -98,8 +101,17 @@ a {
     opacity: 85%;
 }
 
+/*================== Hero ==================*/
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #e6f0ff;
+    height: 100vh;
+}
+
 .hero {
-    margin-top: 130px;
+    margin-top: 118px;
 }
 .hero .info {
     width: 50.4%;
@@ -682,7 +694,7 @@ a {
 .footer .social {
     margin-top: 40px;
     display: flex;
-    gap: 16px
+    gap: 16px;
 }
 
 .footer .social-link {
@@ -693,7 +705,7 @@ a {
     height: 28px;
     background-color: #f9f9f9;
 }
-.footer .social-link:hover{
+.footer .social-link:hover {
     background-color: #ebebeb;
 }
 
