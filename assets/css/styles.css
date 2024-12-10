@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -107,8 +111,8 @@ a {
     flex-direction: column;
     position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
-}
+    height: calc(100vh - 90px);
+} 
 
 .hero {
     margin-top: 118px;
@@ -118,7 +122,7 @@ a {
 }
 
 .hero .sub-title {
-    color: #687690;
+    color: #687690; 
     font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 500;
