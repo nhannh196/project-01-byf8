@@ -170,13 +170,26 @@ a {
     line-height: 1.25; /* 125% */
 }
 
-.clients .images {
+.clients .images { 
     margin-top: 70px;
+    margin-left: -42px;
+    margin-right: -42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.clients .image-client{
+    display: flex;
+    align-items: center;
+    height: 91px;
+    padding: 0 42px;
+}
+.clients .image-client:hover {
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    /* background-color: #0689ff; */
+}
 /* ================== Guides ==================*/
 .guides {
     margin-top: 40px;
